@@ -25,7 +25,7 @@ const print = msg => console.log(msg)
 
 print (`what's up?`)
 
-const ex_arr = [ 'a', 'b', 'c']
+const ex_arr = [ 'a', 'b', 'c', 'd']
 
 //length is stored as a property of the array, describes how many elements in an array, log it into the console
 print (ex_arr.length)
@@ -33,6 +33,7 @@ print (ex_arr.length)
 // ex_arr.forEach (print) //grab the elements in the array, print 3 times to the console
 
 ex_arr.forEach (el => console.log (el)) //'el' is an arbitrary variable, declare here, whatever 'el' is, pass it to the console
+
 
 
 // const cnv = document.getElementById (`cnv_element`) //assigning to variable cnv cnv_element
